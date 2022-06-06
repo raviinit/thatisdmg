@@ -1,0 +1,191 @@
+
+.search__inputpage {
+    width: 30%;
+    margin-top: 10px;
+    padding: 5px 10px;
+    align-content: flex-end;
+    background-color: transparent;
+    transition: transform 250ms ease-in-out;
+    font-size: 14px;
+    line-height: 18px;
+
+    background-color: #fff;
+    background-image: url('./images/searchicon.png');
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    background-position: 98% center;
+    
+    border-radius: 18px 18px 18px 18px;
+    border: 1px solid #e1e1e1;
+    outline: none;
+    transition: all 250ms ease-in-out;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    
+}
+
+
+.search__input {
+    width: 30%;
+    margin-top: 10px;
+    padding: 5px 10px;
+    align-content: flex-end;
+    background-color: transparent;
+    transition: transform 250ms ease-in-out;
+    font-size: 14px;
+    line-height: 18px;
+
+    background-color: transparent;
+    background-image: url('./images/searchBtn.png');
+    background-repeat: no-repeat;
+    background-size: 31px 31px;
+    background-position: 100% center;
+    
+    border-radius: 18px 18px 18px 18px;
+    border: 1px solid #e1e1e1;
+    outline: none;
+    transition: all 250ms ease-in-out;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    
+}
+
+.search-container {
+    display: inline; 
+    align-content: center; 
+}
+
+.search-container:placeholder {
+    /*color: color('#000' a(0.8));*/
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    outline: none;
+}
+
+.search-container:hover,
+.search-container:visited,
+.search-container:focus {
+    outline: none;
+}
+
+.sidebar-down {
+    /*margin-top: 50px;*/
+    /*padding-top: 0px;*/
+    background-color: #ecf0f5;
+    /*z-index: 800;*/
+}
+
+.wrapper {
+    background-color: #ecf0f5;
+}
+
+.main-header {
+    background-color: #fff;
+}
+
+
+.reservedstock {
+    border-collapse: separate;
+    border-spacing: 0 10px;
+}
+
+.reservedstock tr td {
+    background-color: #fff;
+    text-align: left; 
+    border: 0px solid black;
+} 
+
+
+.rowimg {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.colimg {
+  flex: 100%;
+  max-width: 100%;
+  padding: 0 4px;
+}
+
+.colimg .img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+.tblpad {
+    padding: 5px;
+    background-color: #fff;
+}
+
+
+/* Extra small devices (phones, 375px and down) */
+/* If the screen size is 375px or more, set below */
+@media only screen and (min-width: 375px) {
+    .sidebar {
+        margin-top: -10px;
+    }
+    div > ul > li > a {
+        height: 50%;
+    }
+    .main-header {
+        max-height: 150px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* If the screen size is 601px or more, set below */
+@media only screen and (min-width: 601px) {
+    .sidebar {
+        margin-top: -10px;
+    }
+    div > ul > li > a {
+        height: 50%;
+    }
+    .main-header {
+        max-height: 150px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* If the screen size is 769px or more, set below */
+@media only screen and (max-width: 769px) {
+    .sidebar {
+        margin-top: 0px;
+    }
+    div > ul > li > a {
+        height: 50%;
+    }
+    .main-header {
+        /*max-height: 150px;*/
+    }
+}
+
+/* Large devices (laptops/desktops, 1024px and up) */
+/* If the screen size is 1024px or more, set below */
+@media only screen and (min-width: 1024px) {
+    .sidebar {
+        margin-top: 0px;
+    }
+    div > ul > li > a {
+        height: 70%;
+    }
+    .main-header {
+        /*max-height: 150px;*/
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* If the screen size is 1366px or more, set below */
+@media screen and (max-width: 1366px) {
+    .sidebar {
+        margin-top: 0px;
+    }
+    .sidebar-down {
+        /*padding-top: 50px*/
+    }
+    div > ul > li > a {
+        height: 80%;
+    }
+}
